@@ -16,8 +16,10 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <div class="container">
-        <h2>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
-        <a href="logout.php">Logout</a>
+    <h2>I'm Back, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>
+    <p>Surprise! Surprise! The King is Back!</p>
+    <a href="logout.php">Logout</a>
+
     </div>
 </body>
 </html>

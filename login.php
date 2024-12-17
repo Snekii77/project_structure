@@ -2,8 +2,8 @@
 session_start();
 
 // Dummy credentials for demonstration purposes
-$valid_username = 'user';
-$valid_password = 'password';
+$valid_username = 'Snekii77';
+$valid_password = 'imnotsean00';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
